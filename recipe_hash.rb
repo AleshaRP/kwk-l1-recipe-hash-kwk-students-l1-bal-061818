@@ -14,6 +14,18 @@ perfect_10_recipe = {
 
 #2. Write a method that simply returns (not puts) your perfect_10 hash
 def recipe_ingredients(perfect_10_recipe)
+  perfect_10_recipe = {
+   :almondflour => "2 cups",
+   :glutenfreewholeoats => "1 cup",
+   :koshersalt => "1/2 tea spoon",
+   :bakingpowder => "1/2 tea spoon",
+   :bakingsoda => "1/4 tea spoon",
+   :XanthanGum => "1/2 tea spoon",
+   :sliveredalmondslightlytoasted => "1/4 cup",
+   :minidarkchocolatechips => "3/4 cup",
+   :oliveoil => "1/2 cup",
+   :agave => "1/4 cup"
+  }
   return perfect_10_recipe
 end
  puts recipe_ingredients
