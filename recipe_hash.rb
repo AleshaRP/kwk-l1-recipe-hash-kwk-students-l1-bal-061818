@@ -13,7 +13,7 @@ perfect_10_recipe = {
 
 
 # #2. Write a method that simply returns (not puts) your perfect_10 ha
-def recipe_ingredients
+def recipe_ingredients(perfect_10_recipe)
  return perfect_10_recipe
 end
 puts recipe_ingredients
