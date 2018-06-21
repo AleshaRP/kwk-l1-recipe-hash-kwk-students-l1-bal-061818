@@ -10,13 +10,12 @@ perfect_10_recipe = {
 :oliveoil => "1/2 cup",
 :agave => "1/4 cup"
 }
-
+puts perfect_10_recipe
 
 # #2. Write a method that simply returns (not puts) your perfect_10 ha
 def recipe_ingredients(perfect_10_recipe)
    perfect_10_recipe
 end
-puts recipe_ingredients
 # #2: Write code that returns the amount of chocolate chips from perfect_10 ingredients that is needed in the recipe.
 def amount_of_chocolate_chips(perfect_10_recipe)
   recipe_ingredients[:minidarkchocolatechips]
