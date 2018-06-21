@@ -34,18 +34,6 @@
 
 #3: Use `puts` to print out every ingredient and amount in the hash by iterating through the collection. You'll want to use the `each` method.
 def ingredients_and_amounts(perfect_10_recipe)
-  perfect_10_recipe = {
-   :almondflour => "2 cups",
-   :glutenfreewholeoats => "1 cup",
-   :koshersalt => "1/2 tea spoon",
-   :bakingpowder => "1/2 tea spoon",
-   :bakingsoda => "1/4 tea spoon",
-   :XanthanGum => "1/2 tea spoon",
-   :sliveredalmondslightlytoasted => "1/4 cup",
-   :minidarkchocolatechips => "3/4 cup",
-   :oliveoil => "1/2 cup",
-   :agave => "1/4 cup"
-  }
   perfect_10_recipe.each do |x,y|
     puts "#{x} = #{y}"
 end
