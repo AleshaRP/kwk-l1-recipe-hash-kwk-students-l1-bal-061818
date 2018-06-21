@@ -13,12 +13,12 @@ perfect_10_recipe = {
 puts perfect_10_recipe
 
 # #2. Write a method that simply returns (not puts) your perfect_10 ha
-def recipe_ingredients(perfect_10_recipe)
-   perfect_10_recipe
-end
+# def recipe_ingredients(perfect_10_recipe)
+#    perfect_10_recipe
+# end
 # #2: Write code that returns the amount of chocolate chips from perfect_10 ingredients that is needed in the recipe.
 def amount_of_chocolate_chips(perfect_10_recipe)
-  puts perfect_10_recipe[:minidarkchocolatechips]
+  puts "#{perfect_10_recipe}"[:minidarkchocolatechips]
 end
 puts amount_of_chocolate_chips
 
