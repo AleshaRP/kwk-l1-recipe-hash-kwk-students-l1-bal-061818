@@ -11,7 +11,7 @@ perfect_10_recipe = {
  :agave => "1/4 cup"
 }
 
-puts perfect_10_recipe[:almondflour]
+puts perfect_10_recipe
 # All of the ingredients should be symbols and the amounts should be strings. Remember that symbols start with a colon and be sure to sub underscores for spaces.
 
 #2. Write a method that simply returns (not puts) your perfect_10 hash
