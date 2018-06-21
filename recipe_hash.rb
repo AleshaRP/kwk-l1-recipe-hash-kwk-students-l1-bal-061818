@@ -6,7 +6,7 @@ perfect_10_recipe = {
 :bakingsoda => "1/4 tea spoon",
 :xanthangum => "1/2 tea spoon",
 :sliveredalmondslightlytoasted => "1/4 cup",
-:minidarkchocolatechips => "3/4 cup",
+:mini_dark_chocolate_chips => "3/4 cup",
 :oliveoil => "1/2 cup",
 :agave => "1/4 cup"
 }
@@ -18,7 +18,7 @@ puts perfect_10_recipe
 # end
 # #2: Write code that returns the amount of chocolate chips from perfect_10 ingredients that is needed in the recipe.
 def amount_of_chocolate_chips(perfect_10_recipe)
-  puts "#{perfect_10_recipe}"[:minidarkchocolatechips]
+  puts perfect_10_recipe [:mini_dark_chocolate_chips]
 end
 puts amount_of_chocolate_chips
 
